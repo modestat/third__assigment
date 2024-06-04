@@ -1,0 +1,561 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.section__para {
+    position: relative;
+  }
+  .section-two__para {
+    width: 54%;
+  }
+  .section-six__para {
+    width: 78%;
+  }
+  .scene__text{
+    position: absolute;
+    z-index: 10;
+    color: rgb(18, 15, 15);
+    font-size: 2.2vw;
+  }
+  .main__title {
+    font-size: 2.5rem;
+    color: #00569d;
+    top: 10vw;
+    left: 35vw;
+  }
+  .scene1__text{
+    width: 78%;
+    left: 13.8vw;
+    top: 100vw;
+  }
+  .section-two__text {
+    word-break: normal;
+    left: 10vw;
+    top: 50vw;
+    width: 50%;
+  }
+  .section-three__text{
+    width: 70%;
+    top: 115vw;
+    left: 20vw;
+  }
+  .section-five__text--left{
+    top: -5vh;
+    left: 5vw;
+    width: 50%;
+  }
+  .section-five__text--right{
+    top: 60vw;
+    right: 8vw;
+    width: 50%;
+  }
+  .section-six__text {
+    left: 33vw;
+    top: 6vw;
+    width: 50%;
+  }
+  .section-seven__text{
+    top: 62vw;
+    right: 7vw;
+    width: 50%;
+  }
+  .section-eight__text {
+    font-size: 2.5vw;
+    width: 50%;
+    top: 5vw;
+    left: 20vw;
+    
+  }
+  .section-nine__text {
+    font-size: 1.9vw;
+    left: 70vw;
+    top: 9vw;
+    width: 25%;
+  }
+  .position__item--absolute,
+  .sky,
+  .water,
+  .boat,
+  .wrapper__hand > img,
+  .fishpackage > img,
+  .conveyor-belt,
+  .waterflow{
+  position: absolute;
+  }
+  section {
+    position: relative;
+  }
+  .container__logo-SDG12 {
+    position: fixed;
+    width: 12%;
+    opacity: 0.6;
+    z-index: 11;
+    margin: 1.5%;
+  }
+/* All animations */
+@keyframes slideLeft {
+  0% {
+    transform: translateX(10vw);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(22.8vw);
+    opacity: 1;
+  }
+}
+
+@keyframes slideRight {
+  0% {
+    transform: translateX(22.8vw);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(10vw);
+    opacity: 1;
+  }
+}
+
+@keyframes squiggle {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-5px) rotate(2deg);
+  }
+  50% {
+    transform: translateY(5px) rotate(-2deg);
+  }
+  75% {
+    transform: translateY(-3px) rotate(1deg);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes boatAnimation {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(64vw);
+  }
+}
+
+@keyframes fishPackageAnimation {
+  0% {
+    top: 40vw;
+    opacity: 0;
+    left: 30%;
+  }
+  100% {
+    top: 55vw;
+    opacity: 1;
+    left: 15%;
+  }
+}
+
+@keyframes fishPackageAnimation2 {
+  0% {
+    top: 40vw;
+    opacity: 0;
+    left: 30%;
+  }
+  100% {
+    top: 49vw;
+    opacity: 1;
+    left: 21%;
+  }
+}
+@keyframes fishOnConveyor{
+    0% {
+      top: 44vw;
+      opacity: 1;
+      left: 60vw;
+    }
+    100% {
+      top: 41vw;
+      opacity: 0;
+      left: 50vw;
+    }
+  }
+@keyframes armOne {
+  100% {
+    left: 18%;
+    top: 46%;
+  }
+}
+@keyframes armTwo {
+  100% {
+    transform: translateY(50%) translateX(50%);
+  }
+}
+/* Scene 1 */
+.main__section {
+  height: 98.5vw;
+}
+
+.section-one {
+  max-width: 100%;
+  height: 98.6vw;
+  overflow-x: hidden;
+}
+
+.sky,
+.water,
+.boat {
+  overflow-x: hidden;
+}
+
+.boat {
+  z-index: 7;
+  top: 60vw;
+  left: 30vw;
+  width: 32vw;
+}
+
+.sky {
+  width: 105%;
+  &-one {
+    z-index: 4;
+  }
+
+  &-two {
+    z-index: 3;
+    top: 41vw;
+  }
+
+  &-three {
+    z-index: 2;
+    top: 46vw;
+  }
+
+  &-four {
+    z-index: 1;
+    top: 50vw;
+  }
+}
+
+.water {
+  width: 105%;
+  &__wrapper {
+    overflow-x: hidden;
+  }
+
+  &-four {
+    z-index: 5;
+    top: 61vw;
+  }
+
+  &-three {
+    top: 68vw;
+    z-index: 6;
+  }
+
+  &-two {
+    z-index: 8;
+    top: 75vw;
+  }
+
+  &-one {
+    z-index: 9;
+    top: 82.8vw;
+  }
+}
+
+/* Scene 2 */
+.section-two {
+  background: linear-gradient(to bottom, #6161d1 6%, grey 23%, grey 0%);
+  height: 105vw;
+  top: -0.5vw;
+  z-index: 1;
+}
+
+.fish-box__image {
+  width: 37vw;
+  top: 37vw;
+  right: 5vw;
+}
+
+/* End of Scene 2 */
+
+/* Scene 3 */
+.section-three {
+  height: 115vw;
+  top: -1vw;
+  position: relative;
+  background: linear-gradient(to bottom, grey 4%, #c8bcc7 23%);
+}
+
+.open-box {
+  width: 50vw;
+  top: 28vw;
+  left: 27vw;
+  z-index: 2;
+}
+
+.door {
+  width: 14vw;
+}
+
+.door--left {
+  left: 26vw;
+  top: 50.5vw;
+  z-index: 3;
+}
+.animation-left {
+  animation: slideLeft 3s infinite ease;
+}
+
+.door--right {
+  right: 33vw;
+  top: 50.5vw;
+  z-index: 3;
+}
+.animation-right {
+  animation: slideRight 3s infinite ease;
+}
+.container__box--green {
+  width: 38vw;
+  left: 56vw;
+  top: 22vw;
+  z-index: 1;
+}
+.container__box--yellow {
+  width: 45vw;
+  z-index: 3;
+  left: 8vw;
+  top: 52vw;
+}
+/* End of Scene 3 */
+
+/* Scene 4 */
+.section-four {
+  height: 105vw;
+  top: -1vw;
+  background: linear-gradient(to bottom, #c8bcc7 1%, #009dc4 18%, #009dc4 0%);
+}
+.container__ship {
+  top: 25vw;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.ship-top {
+  z-index: 3;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50vw;
+  top: 4vw;
+  left: 25vw;
+}
+.waterflow {
+  width: 10vw;
+  z-index: 2;
+  &-top--left {
+    top: 17vw;
+    left: 27vw;
+  }
+
+  &-top--middle {
+    top: 11vw;
+    left: 41vw;
+  }
+
+  &-right--middle {
+    top: 4vw;
+    left: 73vw;
+  }
+
+  &-top--right {
+    top: 11vw;
+    left: 76vw;
+  }
+
+  &-right {
+    top: 24vw;
+    left: 75vw;
+  }
+
+  &-bottom--right {
+    top: 33vw;
+    left: 65vw;
+  }
+
+  &-bottom--middle {
+    top: 38vw;
+    left: 53vw;
+  }
+
+  &-bottom--left {
+    top: 4vw;
+    left: 54vw;
+  }
+}
+
+.squiggle {
+  animation: squiggle 2s infinite ease;
+}
+/* Scene 5 */
+.section-five {
+  background: linear-gradient(to bottom, #009dc4 0%, #009dc4 70%, #1c5b6a 100%);
+  height: 100vw;
+  background-blend-mode: hue;
+  top: -1vw;
+}
+.world-map,
+.world-map--second {
+  top: 5%;
+}
+.circle1,
+.circle3 {
+  width: 2%;
+  top: 16.4vw;
+  left: 11.4vw;
+}
+.circle2,
+.circle4 {
+  z-index: 1;
+  width: 3%;
+  top: 38.7vw;
+  right: 22.5vw;
+}
+.path {
+  max-width: 100vw;
+  top: 18vw;
+  left: 1.5vw;
+  z-index: 2;
+}
+
+/* End of Scene 5 - Worldmap */
+
+/* Scene 6 */
+.section-six {
+  background-color: #1c5b6a;
+  height: 100vw;
+  top: -1vw;
+}
+
+.conveyor__fish {
+  max-width: 14%;
+  right: 17%;
+  top: 45vw;
+  animation: fishOnConveyor 10s infinite;
+}
+
+.fish-package-conveyor {
+  max-width: 4%;
+  top: 50vw;
+  left: 21%;
+  opacity: 0;
+}
+.fish-package {
+  animation: fishPackageAnimation 10s infinite;
+  animation-delay: 4s infinite;
+}
+.fish-package2 {
+  animation: fishPackageAnimation2 10s infinite;
+  animation-delay: 8s infinite;
+}
+.conveyor-belt {
+  margin: 2%;
+  max-width: 100vw;
+  left: 2%;
+  top: 20vw;
+}
+/* End of Scene in Factory */
+
+/* Scene 7 - Map Again */
+.section-seven {
+  background: linear-gradient(to bottom, #1c5b6a 5%, #009dc4 30%, #009dc4 0%);
+  height: 101vw;
+  background-blend-mode: hue;
+  top: -1vw;
+}
+
+/* Scene 8 - Grocery Shop */
+.section-eight {
+  top: -1vw;
+}
+
+/* Scene 9 - Inside Grocery Shop */
+.section-nine {
+  top: -2vw;
+  max-width: 100%;
+  overflow-y: hidden;
+}
+
+.wrapper__hand > img {
+  position: absolute;
+}
+.hand {
+  display: none;
+  top: 40vw;
+  left: 25vw;
+  width: 17vw;
+  z-index: 5;
+}
+.hand-animation {
+  animation: armOne 2s ease-in forwards;
+}
+.arm {
+  display: none;
+  top: 22vw;
+  left: 8vw;
+  width: 35vw;
+}
+.arm-animation {
+  animation: armTwo 1s ease-in 2s forwards;
+}
+.store-top {
+  top: 16vw;
+  left: 5vw;
+  width: 37vw !important;
+  z-index: 3;
+}
+.fish__store {
+  width: 30vw !important;
+  &-pickUp {
+    display: none;
+    top: 24vw;
+    left: 8vw;
+    z-index: 2;
+  }
+  &-other {
+    left: 34vw;
+    &--1 {
+      top: 22vw;
+    }
+    &--2{
+      top: 20vw;
+
+    }
+  }
+}
+/* Use this class to switch between what to show Hand and fish__store-pickUp or arm */
+.unhide {
+  display: block;
+}
+/* Prefers Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  .animation-right {
+    animation: slideRight 8s infinite ease;
+  }
+  .squiggle {
+    animation: squiggle 5s infinite ease;
+  }
+  .animation-left {
+    animation: slideLeft 8s infinite ease;
+  }
+}
+@media only screen and (max-width: 600px){
+    .main__title {
+      font-size: 5vw;
+      top: 10vw;
+      left: 22vw;
+    }
+  
+  }

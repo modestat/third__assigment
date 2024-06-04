@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 1024">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #cec8c0;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-5 {
+        fill: #f9f7f7;
+      }
+
+      .cls-5, .cls-6, .cls-7 {
+        stroke-width: 0px;
+      }
+
+      .cls-8 {
+        font-size: 56.21px;
+      }
+
+      .cls-8, .cls-9 {
+        fill: #30c;
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+      }
+
+      .cls-2 {
+        fill: #d38231;
+      }
+
+      .cls-9 {
+        font-size: 67.45px;
+      }
+
+      .cls-6 {
+        fill: #423d3d;
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+
+      .cls-7 {
+        fill: #73cad8;
+      }
+
+      .cls-4 {
+        fill: #bfd8e2;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <g id="building">
+        <polygon class="cls-2" points="984.02 186 721.76 239.57 222.09 203.18 9.5 275.96 9.5 584.26 226.06 727.79 725.74 610.54 991.97 747 1212.5 659.06 1212.5 221.38 984.02 186"/>
+        <line class="cls-3" x1="220.59" y1="202.18" x2="224.56" y2="726.79"/>
+        <line class="cls-3" x1="724.24" y1="609.54" x2="724.24" y2="237.76"/>
+        <line class="cls-3" x1="990.47" y1="746" x2="990.47" y2="186.23"/>
+        <line class="cls-3" x1="724.24" y1="294.83" x2="222.57" y2="287.2"/>
+        <line class="cls-3" x1="724.24" y1="576.09" x2="224.14" y2="671.45"/>
+        <g id="stripes-wall">
+          <line class="cls-1" x1="21.79" y1="271.58" x2="21.79" y2="592.73"/>
+          <line class="cls-1" x1="39.82" y1="265.41" x2="39.82" y2="604.69"/>
+          <line class="cls-1" x1="61.74" y1="257.91" x2="61.74" y2="619.22"/>
+          <line class="cls-1" x1="86.86" y1="249.31" x2="86.86" y2="635.86"/>
+          <line class="cls-1" x1="113.29" y1="240.26" x2="113.29" y2="653.38"/>
+          <line class="cls-1" x1="142.92" y1="230.12" x2="142.92" y2="673.02"/>
+          <line class="cls-1" x1="169.54" y1="220.63" x2="169.54" y2="690"/>
+          <line class="cls-1" x1="195.76" y1="212.03" x2="195.76" y2="708.04"/>
+        </g>
+      </g>
+      <g id="doors">
+        <polygon class="cls-4" points="1057 721 1057 454.9 1167.5 445.5 1167.5 676.01 1057 721"/>
+        <line class="cls-3" x1="1112.25" y1="453.67" x2="1112.25" y2="698.5"/>
+        <line class="cls-3" x1="1094.5" y1="518.5" x2="1074.24" y2="570.92"/>
+        <line class="cls-3" x1="1094.5" y1="549.2" x2="1074.24" y2="603"/>
+        <line class="cls-3" x1="1152.5" y1="496.5" x2="1121.5" y2="593.5"/>
+        <line class="cls-3" x1="1152.5" y1="544.71" x2="1142.85" y2="576.1"/>
+      </g>
+      <text class="cls-9" transform="translate(1016.59 317.88) rotate(1.24) scale(.61 1)"><tspan x="0" y="0">R</tspan></text>
+      <text class="cls-9" transform="translate(1038.82 318.36) rotate(1.24) scale(.61 1)"><tspan x="0" y="0">e</tspan></text>
+      <text class="cls-9" transform="translate(1059.36 318.81) rotate(1.24) scale(.61 1)"><tspan x="0" y="0">m</tspan></text>
+      <text class="cls-9" transform="translate(1093.62 319.55) rotate(1.24) scale(.61 1)"><tspan x="0" y="0">a</tspan></text>
+      <text class="cls-9" transform="translate(1113.4 319.98) rotate(1.24) scale(.61 1)"><tspan x="0" y="0"> </tspan></text>
+      <text class="cls-8" transform="translate(1122.08 320.17) rotate(1.24) scale(.61 1)"><tspan x="0" y="0">2</tspan></text>
+      <text class="cls-8" transform="translate(1139.63 320.55) rotate(1.24) scale(.61 1)"><tspan x="0" y="0">0</tspan></text>
+      <text class="cls-8" transform="translate(1157.19 320.93) rotate(1.24) scale(.61 1)"><tspan x="0" y="0">0</tspan></text>
+      <text class="cls-8" transform="translate(1174.73 321.31) rotate(1.24) scale(.61 1)"><tspan x="0" y="0">0</tspan></text>
+      <g id="windows">
+        <polygon class="cls-4" points="286.55 325.35 286.55 624 412.17 601.3 412.17 325.35 286.55 325.35"/>
+        <polygon class="cls-4" points="588.05 326 588.05 567 678.68 552.36 678.68 326 588.05 326"/>
+        <polygon class="cls-4" points="448.6 325.56 448.6 591.92 552.12 574.48 552.12 325.56 448.6 325.56"/>
+        <line class="cls-3" x1="375.5" y1="375.5" x2="308.84" y2="474.67"/>
+        <line class="cls-3" x1="360.59" y1="442.59" x2="315.65" y2="512"/>
+        <line class="cls-3" x1="500.36" y1="525.43" x2="530.5" y2="487.5"/>
+        <line class="cls-3" x1="465.45" y1="525.43" x2="537.63" y2="438.56"/>
+        <line class="cls-3" x1="484.52" y1="466.12" x2="530.5" y2="412.4"/>
+        <line class="cls-3" x1="645" y1="375" x2="609.32" y2="422.93"/>
+        <line class="cls-3" x1="657.33" y1="385.79" x2="597.52" y2="468.89"/>
+      </g>
+      <polygon class="cls-6" points="1212 549.2 1280 549.2 1280 1024 0 1024 0 549.2 9 549.2 9 584.26 224.56 726.79 724.24 609.54 991.47 747 1212 659.06 1212 549.2"/>
+      <polygon class="cls-7" points="0 0 0 549.2 9 549.2 9 275.96 221.59 203.18 721.26 239.57 983.52 186 1212 221.38 1212 549.2 1280 549.2 1280 0 0 0"/>
+      <g id="stripes-road">
+        <polygon class="cls-5" points="587.98 642.23 842.99 787.16 853.04 784.14 863.81 792.05 828.14 805.54 818.3 795.83 829.75 791.03 578.85 644.18 587.98 642.23"/>
+        <polygon class="cls-5" points="413.6 681.02 667.63 827.64 677.7 824.69 688.42 832.67 652.66 845.93 642.89 836.15 654.36 831.42 404.46 682.9 413.6 681.02"/>
+        <polygon class="cls-5" points="233.26 723.67 488.46 880.53 498.58 877.36 509.35 885.9 473.38 900.17 463.57 889.7 475.11 884.61 224.07 725.71 233.26 723.67"/>
+      </g>
+    </g>
+  </g>
+</svg>

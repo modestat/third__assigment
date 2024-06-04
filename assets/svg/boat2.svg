@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Layer_2" data-name="Layer 2" viewBox="0 0 141.6 65.5">
+  <defs>
+    <style>
+      .cls-1{fill:#36c}.cls-1,.cls-2,.cls-3,.cls-6{stroke-width:0}.cls-2{fill:#cfdd1d}.cls-3{fill:#f21c2c}.cls-6{fill:#443636}
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="boat">
+      <path d="m29.5 38.8-3.9-3.9H0v10.8c1.1.9 2.4 2.1 3.6 3.7a21 21 0 0 1 2.8 4.4l119.5.3c1.3-2.5 2.6-4.4 3.8-5.9 3.4-4.2 6-5.2 8.8-9.2 1.5-2.3 2.5-4.4 3.1-6.1h-21.3l-2.1 1.3h-11l-4.5 4.6H29.4h.1Z" style="fill:#283535;stroke-width:0"/>
+      <path d="m125.7 54-.9 5.2c1.5 0 2.9 1.1 3.2 2.6.3 1.4-.3 2.9-1.6 3.7H4.7c0-.1-1.3-1.6-.8-3.3.4-1.4 1.9-2.4 3.5-2.4l-.7-5.7h119V54Z" style="fill:#253f89;stroke-width:0"/>
+      <path d="M3.1 26.7h21v7.8h-21z" style="fill:#bac1cc;stroke-width:0"/>
+      <path d="M2.9 25.5h21.6v1.1H2.9z" class="cls-6"/>
+      <path d="M22.8 25.5V11.2h1.3V7.7H9.8v17.8h13z" style="fill:#d1d5db;stroke-width:0"/>
+      <path d="M9.8 6.6h14.3v1.1H9.8zM6.9 0h7.6v1H6.9z" class="cls-6"/>
+      <path d="M14.3 1v5.6H9.8v18.9H7.1V1h7.2z" style="fill:#c6c2c2;stroke-width:0"/>
+      <path d="M21.9 8.4h1.4v1.4h-1.4zm-7.4 0h1.4v1.4h-1.4zm2.5 0h1.4v1.4H17zm2.5 0h1.4v1.4h-1.4zm-2.7 14.4h4.5v1.9h-4.5zm0-3.1h4.5v1.9h-4.5zm-4.5 0h2.3v5h-2.3zm-6.2 9.9h2v2h-2zm4.9 0h2v2h-2zm4.6 0h1.9v1.9h-1.9zm4.4 0h1.9v1.9H20z" style="fill:#513636;stroke-width:0"/>
+      <path d="M79.6 20.5h12.5v6.2H79.6z" class="cls-3"/>
+      <path d="M92 20.6h12.5v6.1H92zm-37.3 0h12.5v6.1H54.7zm24.8-6.1H92v6.1H79.5zM29.8 26.7h12.5v6.1H29.8z" class="cls-1"/>
+      <path d="M79.6 20.5h12.5v6.2H79.6zm-24.9 6.1h12.5v6.2H54.7z" class="cls-3"/>
+      <path d="M104.5 32.8V37l-1.8 1.8H92.1v-6h12.4zm-24.9-6.1v6.1H67.2v-6.2l12.4.1zm-24.9 6v6l-12.3.1v-6.2l12.3.1zm12.5-18.2-.1 6.1H54.8v-6.2l12.4.1zm-12.5 6.1v6l-12.3.1v-6.2l12.3.1z" style="fill:#393;stroke-width:0"/>
+      <path d="M92.1 26.7h12.4v6.1H92.1z" class="cls-2"/>
+      <path d="M92.1 26.7h12.4v6.1H92.1zm-24.9-6.1h12.4v6.1H67.2zm-24.9 5.9h12.4v6.1H42.3zm37.3 6.2H92v6.1H79.6z" class="cls-2"/>
+      <path d="M67.1 32.8h12.5v6.1H67.1z" class="cls-1"/>
+      <path d="M29.8 32.8h12.5V39H29.8zm37.3-18.4h12.5v6.2H67.1z" class="cls-3"/>
+      <path d="M79.6 26.7h12.5v6.1H79.6z" class="cls-1"/>
+      <path d="M54.8 32.8h12.4v6.1H54.8z" class="cls-2"/>
+    </g>
+  </g>
+</svg>
